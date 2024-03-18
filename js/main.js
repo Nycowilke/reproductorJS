@@ -94,7 +94,7 @@ const musicPlayer = {
     isPlaying: false,
     play: function() {
         this.isPlaying = true;
-        console.log(`Reprogit statusduciendo: ${this.getCurrentSong()}`);
+        console.log(`Reproduciendo: ${this.getCurrentSong()}`);
     },
     pause: function() {
         this.isPlaying = false;
